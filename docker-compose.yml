@@ -1,0 +1,11 @@
+version: '3.9'
+services:
+  python39:
+    build: .
+    container_name: python39_container
+    volumes:
+      - ./app:/app
+    working_dir: /app
+    env_file:
+      - .env
+    tty: true
