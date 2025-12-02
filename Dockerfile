@@ -1,7 +1,7 @@
 # Imagen base de Python 3.9
 FROM python:3.9-slim
 
-# Establecer el directorio de trabajo dentro del contenedor
+# Establecer el directorio de trabajo dentro del contenedor docker
 WORKDIR /app
 
 # Copiar los archivos de requirements (si existen)
