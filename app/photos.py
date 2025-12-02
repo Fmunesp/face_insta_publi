@@ -34,7 +34,7 @@ def publicar_en_facebook(link: str):
 
 
 def main():
-    link = "https://webevolmind.b-cdn.net/wp-content/uploads/2019/07/%C2%BFPor-que-es-util-la-imagen-como-recurso-educativo.webp"
+    link = "https://imgs.search.brave.com/-0sRjnVX3QkqebVp7Fc0LNbxYymltTrGz6oPVED347E/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTQ2/MzQ1NjgxOS9lcy9m/b3RvL21hbmlwdWxh/dGluZy1iaWctZGF0/YS5qcGc_cz02MTJ4/NjEyJnc9MCZrPTIw/JmM9RXVnSWxPX215/UmNuaTJqeDdsZU10/OGhlZS1QMU5tcWFY/c0pWNXFTN1Bsaz0"
     publicar_en_facebook(link)
 
 
